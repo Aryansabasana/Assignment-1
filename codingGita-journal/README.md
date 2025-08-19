@@ -1,1 +1,1 @@
- MY codingGita Learning Journey
+ My codingGita Learning Journey
