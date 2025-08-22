@@ -1,5 +1,5 @@
 
 ## Project Files
 - README.md: Project Documentation
-- style.css: project looks
-- script.js: 
+- style.css: Project styling
+- script.js: Project functionality
