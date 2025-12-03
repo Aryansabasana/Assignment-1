@@ -1,15 +1,21 @@
 #include <stdio.h>
 
 struct student {
-    int id[3] : {1234,2345,5643};
-    char name[3] : {"krishna", "sai", "pal"};
-    int marks[3] : {95, 58, 45};
-
-}
+    int id;
+    char name[20];   
+    int marks;
+};
 
 int main() {
-       struct student details;
-       printf("id = %d, name = %s, marks = %d", details.id[0], details.name[0], details.marks[0]);
+    struct student details[3] = {
+        {1234, "krishna", 95},
+        {2345, "sai", 58},
+        {5643, "pal", 45}
+    };
 
-       return 0;
+    
+    printf("id = %d, name = %s, marks = %d\n",
+           details[0].id, details[0].name, details[0].marks);
+
+    return 0;
 }
